@@ -1,0 +1,22 @@
+postman json
+get
+https://localhost:44345/api/orders/getall
+
+https://localhost:44345/api/orders/getbyid?orderid=10249
+
+post
+https://localhost:44345/api/orders/update
+https://localhost:44345/api/orders/delete
+https://localhost:44345/api/orders/add
+
+"id": 1,
+        "orderId": 10248,
+        "productId": 11,
+        "productName": "Queso Cabrales",
+        "unitPrice": 14.0000,
+        "quantity": 12,
+        "discount": 0,
+        "extendedPrice": 168.0000,
+        "contactName": "Erdem Henriot",
+        "shipAddress": "59 rue de l'Abbaye"
+    },
